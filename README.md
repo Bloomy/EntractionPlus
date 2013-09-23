@@ -1,7 +1,7 @@
 EntractionPlus
 ==============
 
-An script wrote in Autohotkey for a better poker players experience. 
+An script wrote in Autohotkey for a better poker players experience in Entraction Poker Network. 
 
 EntractionPlus was designed to automate the repetitive and annoying parts of online poker, so that they can focus 
 on the tough decisions, play more tables, and take their game to the next level.
