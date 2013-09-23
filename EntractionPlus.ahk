@@ -1,4 +1,3 @@
-
 #NoEnv
 #SingleInstance, Force
 #MaxHotkeysPerInterval 200
@@ -89,7 +88,7 @@ if(lobbyLang = "es") {
     closeRebuyWindowTitle := "Recompra\sautom\x{E1}tica\sactivada" ; RegExpr
     confirmWaitingListWindowTitle := "Lista\sde\sespera"
     ;confirmLargeAllInWindowTitle := "Confirmar\sapuesta"
-    confirmLargeAllInWindowTitle := "aaabbbccc" ; esta confirmacion la realiza en la traduccion española la confirmacion de apuesta grande, ya que tienen el mismo titulo
+    confirmLargeAllInWindowTitle := "aaabbbccc" ; esta confirmacion la realiza en la traduccion espaï¿½ola la confirmacion de apuesta grande, ya que tienen el mismo titulo
     confirmLargeRaiseWindowTitle := "Confirmar\sapuesta"
     confirmLeaveTableWindowTitle := "Confirmar\ssalida"
     rebuyWindowTitle := "^$"
@@ -834,7 +833,7 @@ getBlind(ID, amount) {
     else
         tmp = %blinds2%
 
-    StringReplace, output, tmp, %floatDot%, . ; Nos aseguramos que la cantidad está en el formato decimal adecuado  
+    StringReplace, output, tmp, %floatDot%, . ; Nos aseguramos que la cantidad estï¿½ en el formato decimal adecuado  
     return output
 }
 
@@ -870,7 +869,7 @@ readBetBox(ID) {
     MouseMove, px, py, 0
     CoordMode, Mouse, Relative
     
-    StringReplace, text2, text, %floatDot%, . ; Nos aseguramos que la cantidad está en el formato decimal adecuado
+    StringReplace, text2, text, %floatDot%, . ; Nos aseguramos que la cantidad estï¿½ en el formato decimal adecuado
     return text2
 }
 
